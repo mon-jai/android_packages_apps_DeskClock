@@ -17,8 +17,9 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
-          cache: 'gradle'
+          distributions: adopt
+          java-version: "17"
+          cache: "gradle"
 
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
