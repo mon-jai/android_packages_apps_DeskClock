@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.uidata;
+package com.lineageos.deskclock.uidata;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
@@ -27,10 +27,10 @@ import org.junit.runner.RunWith;
 
 import java.util.Locale;
 
-import static com.android.deskclock.uidata.UiDataModel.Tab.ALARMS;
-import static com.android.deskclock.uidata.UiDataModel.Tab.CLOCKS;
-import static com.android.deskclock.uidata.UiDataModel.Tab.STOPWATCH;
-import static com.android.deskclock.uidata.UiDataModel.Tab.TIMERS;
+import static com.lineageos.deskclock.uidata.UiDataModel.Tab.ALARMS;
+import static com.lineageos.deskclock.uidata.UiDataModel.Tab.CLOCKS;
+import static com.lineageos.deskclock.uidata.UiDataModel.Tab.STOPWATCH;
+import static com.lineageos.deskclock.uidata.UiDataModel.Tab.TIMERS;
 
 import static org.junit.Assert.assertSame;
 

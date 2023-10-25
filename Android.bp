@@ -33,23 +33,23 @@ android_app {
         "androidx-constraintlayout_constraintlayout"
     ],
     required: [
-        "com.android.deskclock_allowlist",
-        "com.android.deskclock_default-permissions"
+        "com.lineageos.deskclock_allowlist",
+        "com.lineageos.deskclock_default-permissions"
     ],
 }
 
 prebuilt_etc {
-    name: "com.android.deskclock_allowlist",
+    name: "com.lineageos.deskclock_allowlist",
     product_specific: true,
     sub_dir: "sysconfig",
-    src: "com.android.deskclock_allowlist.xml",
+    src: "com.lineageos.deskclock_allowlist.xml",
     filename_from_src: true,
 }
 
 prebuilt_etc {
-    name: "com.android.deskclock_default-permissions",
+    name: "com.lineageos.deskclock_default-permissions",
     product_specific: true,
     sub_dir: "default-permissions",
-    src: "com.android.deskclock_default-permissions.xml",
+    src: "com.lineageos.deskclock_default-permissions.xml",
     filename_from_src: true,
 }

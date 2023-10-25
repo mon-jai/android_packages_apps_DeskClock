@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <com.android.deskclock.widget.AutoSizingTextClock
+        <com.lineageos.deskclock.widget.AutoSizingTextClock
             android:id="@+id/digital_clock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:textAppearance="@style/world_clock_time"
             tools:text="01:23"/>
 
-        <com.android.deskclock.AnalogClock
+        <com.lineageos.deskclock.AnalogClock
             android:id="@+id/analog_clock"
             android:layout_width="@dimen/world_clock_analog_size"
             android:layout_height="@dimen/world_clock_analog_size"

@@ -53,7 +53,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="@fraction/timer_setup_time_bottom_percent" />
 
-    <com.android.deskclock.widget.AutoSizingTextView
+    <com.lineageos.deskclock.widget.AutoSizingTextView
         android:id="@+id/timer_setup_time"
         style="@style/TimerSetupTime"
         android:layout_width="0dp"

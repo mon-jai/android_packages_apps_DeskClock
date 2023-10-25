@@ -15,13 +15,13 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.deskclock.tests">
+    package="com.lineageos.deskclock.tests">
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="androidx.test.runner.AndroidJUnitRunner"
-             android:targetPackage="com.android.deskclock"
+             android:targetPackage="com.lineageos.deskclock"
              android:label="Tests for DeskClock application."/>
 </manifest>

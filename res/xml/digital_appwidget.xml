@@ -27,4 +27,4 @@
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="0"
     android:widgetCategory="keyguard|home_screen"
-    android:configure="com.android.alarmclock.DigitalAppWidgetConfigurationActivity" />
+    android:configure="com.lineageos.alarmclock.DigitalAppWidgetConfigurationActivity" />

@@ -15,7 +15,7 @@
 -->
 
 <!-- This TimerItem includes the circle because ample space exists. -->
-<com.android.deskclock.timer.TimerItem
+<com.lineageos.deskclock.timer.TimerItem
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:contentDescription="@string/timer_delete" />
 
-    <com.android.deskclock.CircleButtonsLayout
+    <com.lineageos.deskclock.CircleButtonsLayout
         android:id="@+id/circle_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -70,12 +70,12 @@
         app:layout_constraintTop_toBottomOf="@id/timer_label"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <com.android.deskclock.timer.TimerCircleView
+        <com.lineageos.deskclock.timer.TimerCircleView
             android:id="@+id/timer_time"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <com.android.deskclock.widget.AutoSizingTextView
+        <com.lineageos.deskclock.widget.AutoSizingTextView
             android:id="@+id/timer_time_text"
             style="@style/display_time"
             android:layout_width="match_parent"
@@ -102,7 +102,7 @@
             android:minHeight="@dimen/touch_target_min_size"
             app:tint="@color/accent_color" />
 
-    </com.android.deskclock.CircleButtonsLayout>
+    </com.lineageos.deskclock.CircleButtonsLayout>
 
     <Space
         android:id="@+id/space_after_close"
@@ -151,4 +151,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:tint="?android:textColorPrimaryInverse" />
 
-</com.android.deskclock.timer.TimerItem>
+</com.lineageos.deskclock.timer.TimerItem>

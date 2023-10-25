@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.worldclock;
+package com.lineageos.deskclock.worldclock;
 
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -24,9 +24,9 @@ import androidx.test.InstrumentationRegistry;
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;
 import androidx.test.rule.ActivityTestRule;
 
-import com.android.deskclock.R;
-import com.android.deskclock.data.City;
-import com.android.deskclock.data.DataModel;
+import com.lineageos.deskclock.R;
+import com.lineageos.deskclock.data.City;
+import com.lineageos.deskclock.data.DataModel;
 
 import org.junit.After;
 import org.junit.Before;

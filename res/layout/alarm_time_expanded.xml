@@ -81,7 +81,7 @@
         app:layout_constraintEnd_toStartOf="@id/end_guide_thin"
         app:layout_constraintTop_toBottomOf="@id/digital_clock" />
 
-    <com.android.deskclock.widget.EllipsizeLayout
+    <com.lineageos.deskclock.widget.EllipsizeLayout
         android:id="@+id/ellipse_layout"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/touch_target_min_size"
@@ -106,7 +106,7 @@
             android:textAppearance="@style/body"
             android:visibility="visible"
             tools:text="Mo.,Tue.,Wed." />
-    </com.android.deskclock.widget.EllipsizeLayout>
+    </com.lineageos.deskclock.widget.EllipsizeLayout>
 
     <include
         android:id="@+id/repeat_days"

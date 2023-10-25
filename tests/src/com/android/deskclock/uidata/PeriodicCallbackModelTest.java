@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.uidata;
+package com.lineageos.deskclock.uidata;
 
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;
 
@@ -23,10 +23,10 @@ import org.junit.runner.RunWith;
 
 import java.util.Calendar;
 
-import static com.android.deskclock.uidata.PeriodicCallbackModel.Period.HOUR;
-import static com.android.deskclock.uidata.PeriodicCallbackModel.Period.MIDNIGHT;
-import static com.android.deskclock.uidata.PeriodicCallbackModel.Period.MINUTE;
-import static com.android.deskclock.uidata.PeriodicCallbackModel.Period.QUARTER_HOUR;
+import static com.lineageos.deskclock.uidata.PeriodicCallbackModel.Period.HOUR;
+import static com.lineageos.deskclock.uidata.PeriodicCallbackModel.Period.MIDNIGHT;
+import static com.lineageos.deskclock.uidata.PeriodicCallbackModel.Period.MINUTE;
+import static com.lineageos.deskclock.uidata.PeriodicCallbackModel.Period.QUARTER_HOUR;
 
 import static java.util.Calendar.MILLISECOND;
 import static org.junit.Assert.assertEquals;

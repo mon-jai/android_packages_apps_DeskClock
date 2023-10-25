@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.ringtone;
+package com.lineageos.deskclock.ringtone;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,12 +27,12 @@ import androidx.test.InstrumentationRegistry;
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;
 import androidx.test.rule.ActivityTestRule;
 
-import com.android.deskclock.ItemAdapter;
-import com.android.deskclock.ItemAdapter.ItemHolder;
-import com.android.deskclock.R;
-import com.android.deskclock.Utils;
-import com.android.deskclock.data.DataModel;
-import com.android.deskclock.provider.Alarm;
+import com.lineageos.deskclock.ItemAdapter;
+import com.lineageos.deskclock.ItemAdapter.ItemHolder;
+import com.lineageos.deskclock.R;
+import com.lineageos.deskclock.Utils;
+import com.lineageos.deskclock.data.DataModel;
+import com.lineageos.deskclock.provider.Alarm;
 
 import org.junit.After;
 import org.junit.Before;

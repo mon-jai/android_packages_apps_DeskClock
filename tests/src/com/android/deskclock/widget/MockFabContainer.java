@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.widget;
+package com.lineageos.deskclock.widget;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.android.deskclock.DeskClockFragment;
-import com.android.deskclock.FabContainer;
+import com.lineageos.deskclock.DeskClockFragment;
+import com.lineageos.deskclock.FabContainer;
 
 /**
  * DeskClock is the normal container for the fab and its left and right buttons. In order to test

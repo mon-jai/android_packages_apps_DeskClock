@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <exceptions>
-    <exception package="com.android.deskclock">
+    <exception package="com.lineageos.deskclock">
         <!-- Notifications -->
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
     </exception>

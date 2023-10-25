@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.timer;
+package com.lineageos.deskclock.timer;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,8 +24,8 @@ import androidx.test.core.app.ApplicationProvider;
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;
 import androidx.test.rule.ActivityTestRule;
 
-import com.android.deskclock.data.DataModel;
-import com.android.deskclock.data.Timer;
+import com.lineageos.deskclock.data.DataModel;
+import com.lineageos.deskclock.data.Timer;
 
 import org.junit.Rule;
 import org.junit.Test;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock.timer;
+package com.lineageos.deskclock.timer;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,11 +31,11 @@ import androidx.test.rule.ActivityTestRule;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.android.deskclock.DeskClock;
-import com.android.deskclock.R;
-import com.android.deskclock.data.DataModel;
-import com.android.deskclock.data.Timer;
-import com.android.deskclock.widget.MockFabContainer;
+import com.lineageos.deskclock.DeskClock;
+import com.lineageos.deskclock.R;
+import com.lineageos.deskclock.data.DataModel;
+import com.lineageos.deskclock.data.Timer;
+import com.lineageos.deskclock.widget.MockFabContainer;
 
 import org.junit.After;
 import org.junit.BeforeClass;

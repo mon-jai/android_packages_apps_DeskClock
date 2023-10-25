@@ -59,7 +59,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.android.deskclock.stopwatch.StopwatchCircleView
+        <com.lineageos.deskclock.stopwatch.StopwatchCircleView
             android:id="@+id/stopwatch_circle"
             android:layout_width="0dp"
             android:layout_height="0dp"

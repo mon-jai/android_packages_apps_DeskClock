@@ -29,7 +29,7 @@
         android:layout_weight="@integer/gutter_width_percent" />
 
     <!-- Guttered content. -->
-    <com.android.deskclock.stopwatch.StopwatchLandscapeLayout
+    <com.lineageos.deskclock.stopwatch.StopwatchLandscapeLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="@integer/guttered_content_width_percent">
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:clipToPadding="false" />
 
-    </com.android.deskclock.stopwatch.StopwatchLandscapeLayout>
+    </com.lineageos.deskclock.stopwatch.StopwatchLandscapeLayout>
 <!--
     &lt;!&ndash; Right gutter. &ndash;&gt;
     <Space

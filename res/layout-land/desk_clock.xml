@@ -74,7 +74,7 @@
             android:layout_height="match_parent"
             android:baselineAligned="false"
             android:orientation="vertical"
-            app:layout_behavior="com.android.deskclock.widget.toast.SnackbarSlidingBehavior"
+            app:layout_behavior="com.lineageos.deskclock.widget.toast.SnackbarSlidingBehavior"
             app:layout_constraintEnd_toEndOf="parent">
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
