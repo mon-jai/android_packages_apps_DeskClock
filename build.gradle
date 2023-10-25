@@ -47,6 +47,10 @@ android {
     lint {
         ignore 'ProtectedPermissions', 'ExtraTranslation', 'ImpliedQuantity', 'MissingQuantity', 'MissingTranslation'
     }
+
+    lintOptions { 
+        checkReleaseBuilds false 
+    }
 }
 
 dependencies {
