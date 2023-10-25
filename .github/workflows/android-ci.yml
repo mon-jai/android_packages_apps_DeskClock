@@ -26,7 +26,7 @@ jobs:
 
       # Run Build Project
       - name: Build gradle project
-        run: ./gradlew build –x compileDebugUnitTestJavaWithJavac
+        run: ./gradlew –x compileDebugUnitTestJavaWithJavac build
 
       # Create APK Release
       - name: Build apk release project (APK) - ${{ env.main_project_module }} module
