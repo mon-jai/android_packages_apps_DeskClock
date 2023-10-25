@@ -22,7 +22,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        minSdkVersion 27
+        minSdkVersion 31
         targetSdkVersion 33
     }
 
@@ -48,8 +48,8 @@ android {
         ignore 'ProtectedPermissions', 'ExtraTranslation', 'ImpliedQuantity', 'MissingQuantity', 'MissingTranslation'
     }
 
-    lintOptions { 
-        checkReleaseBuilds false 
+    lintOptions {
+        checkReleaseBuilds false
     }
 }
 
