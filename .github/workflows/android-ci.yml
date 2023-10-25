@@ -24,12 +24,10 @@ jobs:
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
 
-      # Create APK Release
-      - name: Build apk release project (APK) - ${{ env.main_project_module }} module
+      - name: Build apk release
         run: ./gradlew assemble
 
-      # Noted For Output [main_project_module]/build/outputs/apk/release/
-      - name: Upload APK Release - ${{ env.repository_name }}
+      - name: Upload APK Release
         uses: actions/upload-artifact@v3
         with:
           path: ${{ env.main_project_module }}/build/outputs/apk/release/
